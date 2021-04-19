@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Store</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="shop cart.css" />
+    <script src="shop cart.js" async></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="container content-section">
+        <h2 class="section-title">VETEMENTS</h2>
+        <div class="vetements">
+          <div class="t-shirts">
+            <span class="shop-item-title">t-shirt</span>
+            <img
+              class="t-shirt"
+              src="https://contents.mediadecathlon.com/p1594528/k$ef84bb478d8fbf0008d70aa041711868/t-shirt-sportee-100-coton-homme-noir.jpg?&f=800x800"
+              width="150px"
+            />
+            <div class="shop-details">
+              <span class="shop-price">$12.99</span>
+              <input type="number" placeholder="quantity" />
+              <button class="btn-danger" type="button">REMOVE</button>
+            </div>
+          </div>
+          <div class="shorts">
+            <span class="shop-item-title">short</span>
+            <img
+              class="short"
+              src="https://contents.mediadecathlon.com/p1573697/k$c8ac72c11c8bee5fb011f8c559814dad/short-crosstraining-900-homme-noirslashrouge.jpg?&f=800x800"
+              width="150px"
+            />
+            <div class="shop-details">
+              <span class="shop-price">$14.99</span>
+              <input type="number" placeholder="quantity" />
+              <button class="btn-danger" type="button">REMOVE</button>
+            </div>
+          </div>
+          <div class="chaussettes">
+            <span class="shop-item-title">chaussette</span>
+            <img
+              class="CHAUSSETTE"
+              src="https://contents.mediadecathlon.com/p1961453/k$9a780006162c659b7cec1146cddb142c/chaussettes-de-running-mi-hauteur-confort-x2-noires.jpg?&f=800x800"
+              width="150px"
+            />
+            <div class="shop-details">
+              <span class="shop-price">$9.99</span>
+              <input type="number" placeholder="quantity" />
+              <button class="btn-danger" type="button">REMOVE</button>
+            </div>
+          </div>
+          <div class="Chaussures">
+            <span class="shop-item-title">Chaussure</span>
+            <img
+              class="Chaussure"
+              src="https://contents.mediadecathlon.com/p1166414/k$314520c85a0fa2c1a7add781d51a68a8/chaussure-de-cross-training-homme-noir-et-rouge-strong-900.jpg?&f=800x800"
+              width="150px"
+            />
+            <div class="shop-details">
+              <span class="shop-price">$19.99</span>
+              <input type="number" placeholder="quantity" />
+              <button class="btn-danger" type="button">REMOVE</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container content-section">
+        <h2 class="section-title">CART</h2>
+        <div class="cart-row">
+          <span class="cart-price cart-header cart-column">ITEM</span>
+          <span class="cart-price cart-header cart-column">PRICE</span>
+          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items"></div>
+        <div class="total">
+          <strong class="total-title">Total</strong>
+          <span class="total-price">$0</span>
+        </div>
+        <button class="btn-btn-purshase" type="button">
+          PURCHASE
+        </button>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
